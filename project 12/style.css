@@ -1,0 +1,117 @@
+•⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #101010;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.projects {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 30px;
+}
+
+.section-heading {
+    margin-bottom: 40px;
+}
+
+.section-heading p {
+    color: #999;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+/* GRID CONTAINER */
+
+.project-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-rows: repeat(3, 200px);
+
+    gap: 20px;
+}
+
+/* COMMON CARD STYLING */
+
+.project-card {
+    padding: 30px;
+    border-radius: 18px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background: #202020;
+}
+
+.project-card span {
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #bbb;
+}
+
+
+/* ADVANCED GRID POSITIONING */
+
+.project-one {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    background: #263c50;
+}
+
+.project-two {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background: #49354f;
+}
+
+.project-three {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background: #315345;
+}
+
+.project-four {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background: #59402f;
+}
+
+.project-five {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    background: #353d4e;
+}
+
+/* HOVER EFFECT */
+
+.project-card:hover {
+    background: #454545;
+}
+
+
+@media (max-width: 500px) {
+
+    .project-grid {
+
+        grid-template-columns: 1fr;
+        /* single columns only */
+    }
+
+
+    .project-card {
+        grid-column: 1 / -1;
+        min-height: 220px;
+    }
+

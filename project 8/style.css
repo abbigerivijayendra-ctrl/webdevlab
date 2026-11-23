@@ -1,0 +1,35 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    background-color: aqua;
+    font-size: 2rem;
+    z-index: 20;
+    top: 0;
+    height: 100px;
+}
+.head{
+       text-align: center;
+}
+main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+    justify-content: space-around;
+}
+.card{
+    width: 400px;
+    background-color: bisque;
+    height: 800px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.extender{
+    height: 340px;

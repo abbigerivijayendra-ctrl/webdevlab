@@ -1,0 +1,25 @@
+:root{
+    --background1: #B88265;
+    --background2: #B8659B;
+    --background3: #E3CF3B;
+
+    --color1: #3E41E0;
+    --color2: #3E92E0;
+    --font: bolder;
+
+
+}
+
+.para1{
+    background-color: var(--background1);
+}
+.para2{
+    background-color: var(--background3);
+}
+.para3{
+    background-color: var(--background2);
+}
+.para4{
+    color: var(--color2);
+    font-weight: var(--font);
+}

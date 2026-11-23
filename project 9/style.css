@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+header{
+    background-color: bisque;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    background-color: aqua;
+}

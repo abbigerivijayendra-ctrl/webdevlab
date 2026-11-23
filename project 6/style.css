@@ -1,0 +1,23 @@
+main{
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    margin: 0px 20px;
+    text-decoration: none;
+}
+aside{
+    width: 40%;
+}
+footer{
+    text-align: center;
+    
+}
+aside,footer,section,header{
+    background-color:aqua;
+    border: 5px solid black;
+}
